@@ -20,6 +20,13 @@ const connect = function () {
   conn.on("connect", () => {
     console.log("Successfully connected to game server!");
     conn.write("Name: SKY");
+    //   conn.write("Move: down");
+    // setTimeout(() => {
+    //   conn.write("Move: down");
+    // }, 1000);
+    // setInterval(() => {
+    //   conn.write("Move: down");
+    // }, 1000);
   });
 
   return conn;
