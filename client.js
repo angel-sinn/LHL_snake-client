@@ -1,9 +1,9 @@
 const { on } = require("events");
 const net = require("net");
 
-/*
-Establishes connection with the game server
-*/
+/**
+ * Establishes connection with the game server
+ */
 
 const connect = function () {
   const conn = net.createConnection({
